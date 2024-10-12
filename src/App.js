@@ -85,7 +85,7 @@ function App() {
       {/* =============== BEGIN: MORE DESTINATION ================= */}
       <div className="destination moreDestination">
         <div className="maxwidthContent">
-          <h4>more</h4>
+          <h4 className="moreText">more</h4>
           <h2>destinations</h2>
           <p>
             Your peace of mind doesn't have to be tied to where everyone else
