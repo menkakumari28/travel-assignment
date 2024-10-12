@@ -1,0 +1,51 @@
+@import "../../assets/styles/variables.scss";
+@import "../../assets/styles/mixin.scss";
+
+$color_1: rgba(255, 255, 255, 0.8);
+$color_2: rgba(208, 208, 208, 1);
+$background-color_1: rgba(0, 53, 49, 1);
+
+.wave {
+	background-color: $background-color_1;
+	height: auto;
+    .bgImg{
+        height:523px ;
+        width: 100%;
+    }
+	img {
+		display: block;
+	}
+}
+.footer {
+	display: flex;
+	padding: 1rem 6rem 1rem 3rem;
+	div {
+		text-align: left;
+		width: 25%;
+		&:last-child {
+			width: 20%;
+		}
+	}
+	p {
+		font-size: 1rem;
+		line-height: 27px;
+		font-weight: 400;
+		margin: 0;
+		color: $color_1;
+        cursor: pointer;
+	}
+	h6 {
+		color: $color_2;
+		font-size: 1rem;
+		line-height: 25.07px;
+		font-weight: 900;
+		margin: 0 0 1rem 0;
+	}
+}
+.icon {
+	padding-top: 1rem;
+	img {
+		display: block;
+		margin-bottom: 1rem;
+	}
+}

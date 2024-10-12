@@ -1,0 +1,12 @@
+@mixin flexProp($align, $justify, $wrap) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
+
+@mixin maxWidth {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}

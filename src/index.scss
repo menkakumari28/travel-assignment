@@ -1,0 +1,60 @@
+@import "./assets/styles/variables.scss";
+@import "./assets/styles/mixin.scss";
+
+@font-face {
+  font-family: Relocate;
+  font-weight: 400;
+  font-style: normal;
+  src: url(./assets/fonts/CircularStdRegular.ttf);
+}
+
+@font-face {
+  font-family: Relocate;
+  font-weight: 500;
+  font-style: normal;
+  src: url(./assets/fonts/CircularStdMedium.ttf);
+}
+
+@font-face {
+  font-family: Relocate;
+  font-weight: 700;
+  font-style: normal;
+  src: url(./assets/fonts/CircularStdBold.ttf);
+}
+
+@font-face {
+  font-family: Relocate;
+  font-weight: 900;
+  font-style: normal;
+  src: url(./assets/fonts/CircularStdBlack.ttf);
+}
+
+@font-face {
+  font-family: Relocate2;
+  font-weight: 400;
+  font-style: normal;
+  src: url(./assets/fonts/Megattor.ttf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 16px;
+
+  @media only screen and (max-width: 1366px) {
+    font-size: 1.171vw;
+  }
+}
+
+body {
+  font-family: "Relocate" !important;
+  overflow-x: hidden;
+  background-color: $color-white;
+}
